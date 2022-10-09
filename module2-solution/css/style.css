@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding: 0;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+}
+.item1 {
+  width: 360px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+  /*border: solid;*/
+  position: relative;
+}
+.item2 {
+  width: 360px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+.item3 {
+  width: 360px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+p {
+  background-color: #bfbfbf;
+  border: 2px solid black;
+  height: 200px;
+  margin-right: 10px;
+  padding: 50px 10px 5px 10px;
+  overflow: hidden;
+}
+
+#contenedor {
+  position: relative;
+}
+#submenu1 {
+  background-color: #d59898;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#submenu2 {
+  background-color: #c14543;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#submenu3 {
+  background-color: #e5d198;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .row1 {
+    flex-wrap: wrap;
+  }
+  .row1 {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .item1 {
+    width: 48%;
+    margin: 0px 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .item2 {
+    width: 48%;
+    margin: 0px 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .item3 {
+    width: 100%;
+    margin: 20px 5px;
+  }
+}
+@media (max-width: 767px) {
+  .row1 {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+}
